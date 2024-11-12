@@ -3,7 +3,8 @@ import styles from "./ProjectPage.module.css";
 import ProjectCard from "../../Components/ProjectCard/projectCard";
 import calculatorIMG from "../../assets/calculatorIMG.png";
 import easytripIMG from "../../assets/easytripIMG.png";
-import promptImg from '../../assets/promptIMG.png'
+import promptImg from '../../assets/promptIMG.png';
+import PingGameIMG from '../../assets/PingGameIMG.png';
 import numguessIMG from '../../assets/numguessIMG.png'
 import Age_cal from '../../assets/Age_cal.png'
 import { motion } from "framer-motion";
@@ -53,6 +54,21 @@ function Projects() {
                 "https://cdn.worldvectorlogo.com/logos/html-1.svg",
                 "https://cdn.worldvectorlogo.com/logos/css-3.svg",
                 "https://cdn.worldvectorlogo.com/logos/javascript-1.svg"
+              ]}
+            />
+            <ProjectCard
+              previewLink={"https://ping-game-zeta.vercel.app/"}
+              githubLink={"https://github.com/Sreeramgonela/ping_game"}
+              projectName={"Ping game App"}
+              projectDetails={
+                "It is a ping game."
+              }
+              demoImage={PingGameIMG}
+              key={"Ping game App"}
+              skill_img={[
+                "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                "https://cdn.worldvectorlogo.com/logos/css-3.svg",
+                "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
               ]}
             />
             <ProjectCard
