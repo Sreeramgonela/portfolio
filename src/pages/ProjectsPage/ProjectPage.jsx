@@ -61,7 +61,7 @@ function Projects() {
               githubLink={"https://github.com/Sreeramgonela/ping_game"}
               projectName={"Ping game App"}
               projectDetails={
-                "This image shows a retro-style arcade game titled "PING," with a prompt to "Press any key to start the game."
+                "This image shows a retro-style arcade game titled PING with a prompt to "Press any key to start the game."
               }
               demoImage={PingGameIMG}
               key={"Ping game App"}
